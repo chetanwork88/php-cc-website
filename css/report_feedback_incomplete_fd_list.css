@@ -1,0 +1,100 @@
+    /* ------------------report_feedback_incomplete_fd_list.css --------------------*/
+    
+    .fd-mark-complete-form {
+        width: 50%;
+        margin: 60px auto;
+        background-color: rgb(244, 245, 244);
+    }
+    
+    .fd-mark-complete-form h3 {
+        background-color: royalblue;
+        color: white;
+        padding: 20px 0;
+    }
+    
+    .fd-mark-complete-form .form-group {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 0 20px;
+    }
+    
+    .fd-mark-complete-form .form-group .form-key {
+        width: 30%;
+    }
+    
+    .fd-mark-complete-form .form-group .form-value {
+        width: 50%;
+    }
+    
+    .fd-mark-complete-form .form-group .colon-seperator {
+        width: 10%;
+    }
+    
+    .fd-mark-complete-form input {
+        border: none;
+        border-bottom: 1px solid black;
+        width: 100%;
+    }
+    
+    .fd-mark-complete-form .textarea-value {
+        background-color: rgb(244, 245, 244);
+    }
+    
+    .fd-mark-complete-form input[value] {
+        background-color: rgb(244, 245, 244);
+    }
+    
+    .fd-mark-complete-form input[type="date"] {
+        background-color: white;
+    }
+    
+    .fd-mark-complete-form .enter-value input {
+        padding: 5px 0;
+    }
+    
+    .fd-mark-complete-form .mark-comp-form-btn {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    
+    .fd-mark-complete-form .msg {
+        text-align: center;
+        color: rgb(230, 24, 24);
+    }
+    
+    .fd-home-link-bottom {
+        text-align: center;
+        margin: 30px 0;
+    }
+    /* -----------------big windofd---------------- */
+    
+    @media only screen and (max-device-width: 1300px) {}
+    /* -----------ipad-pro-------------- */
+    
+    @media screen and (max-width: 1100px) {
+        .fd-mark-complete-form {
+            width: 60%;
+        }
+    }
+    /* -----------ipad-------------- */
+    
+    @media screen and (max-width: 1023px) {
+        .fd-mark-complete-form {
+            width: 75%;
+        }
+    }
+    /* -----------mobile devices----------- */
+    
+    @media screen and (max-width: 700px) {
+        .fd-mark-complete-form {
+            width: 90%;
+        }
+    }
+    /* ----------- very small mobile device iphone 5/SE----------- */
+    
+    @media screen and (max-width: 550px) {
+        .fd-mark-complete-form {
+            width: 95%;
+        }
+    }

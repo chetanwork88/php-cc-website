@@ -1,0 +1,150 @@
+    /* ------------------job_portal.css --------------------*/
+    
+    .bgimg-2 {
+        background-image: url("/cc/resources/job/job_main.jpg");
+        position: relative;
+        opacity: 0.8;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        min-height: 400px;
+    }
+    
+    .no-margin-dark {
+        background-color: rgb(43, 41, 41);
+    }
+    
+    .no-margin-dark .module h3 {
+        color: white;
+    }
+    
+    .no-margin-dark .module p {
+        color: rgb(233, 217, 186);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    /* ---------------job-updates---------- */
+    /* --------------------job-updates------------- */
+    
+    .job-updates {
+        width: 95%;
+        margin: 0 auto;
+    }
+    
+    .table-div {
+        overflow-y: auto;
+        max-height: 400px;
+    }
+    
+    .table-div thead {
+        position: sticky;
+        top: 0;
+        background-color: #02559e;
+        color: white;
+    }
+    
+    .job-updates h3 {
+        padding: 30px 0;
+    }
+    
+    .job-updates td {
+        max-width: 200px;
+        overflow: visible;
+        word-break: keep-all;
+    }
+    
+    .job-updates .btn-center {
+        text-align: center;
+    }
+    /* -------------job apply form--------- */
+    /*     
+    .job-apply {
+        background-image: url('/cc/resources/job/job_back_white.jpg');
+        position: relative;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        min-height: 400px;
+    }
+    
+    .job-apply h3 {
+        padding: 20px;
+    }
+    
+    .job-apply-form {
+        width: 80%;
+        margin: 0 auto;
+        background: rgba(255, 255, 255, 0.5);
+        padding: 20px;
+    }
+    
+    .job-apply-form input,
+    .job-apply-form select {
+        border: none;
+        border-bottom: 1px solid black;
+        background-color: transparent;
+    }
+    
+    .job-apply-form input:hover {
+        border-bottom: 3px solid royalblue;
+    }
+    
+    .job-apply-form label {
+        font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+    
+    .job-apply-form .custom-control-label,
+    .job-apply-form .custom-file-label {
+        font-weight: normal;
+    }
+    
+    .star {
+        color: red;
+    }
+    
+    .job-apply-btn {
+        text-align: center;
+        padding-bottom: 20px;
+    } */
+    /* -----------------big windows---------------- */
+    
+    @media only screen and (max-device-width: 1300px) {}
+    /* -----------ipad-pro-------------- */
+    
+    @media screen and (max-width: 1100px) {}
+    /* -----------ipad-------------- */
+    
+    @media screen and (max-width: 1023px) {
+        .job-apply-form {
+            width: 90%;
+            padding: 15px;
+        }
+    }
+    /* -----------mobile devices----------- */
+    
+    @media screen and (max-width: 700px) {
+        .job-apply h3 {
+            padding: 20px 0;
+        }
+        .job-apply-form {
+            width: 90%;
+            padding: 10px;
+        }
+    }
+    /* ----------- very small mobile device iphone 5/SE----------- */
+    
+    @media screen and (max-width: 550px) {
+        .job-apply h3 {
+            padding: 20px 0;
+            font-size: 18px;
+        }
+        .job-apply-form {
+            width: 100%;
+            padding: 10px;
+        }
+    }

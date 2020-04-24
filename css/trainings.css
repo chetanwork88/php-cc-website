@@ -1,0 +1,32 @@
+.trainings {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/* -----------ipad-pro-------------- */
+
+@media screen and (max-width: 1024px) {
+    .trainings {
+        width: 60%;
+    }
+}
+
+
+/* -----------ipad-------------- */
+
+@media screen and (max-width: 768px) {
+    .trainings {
+        width: 70%;
+    }
+}
+
+
+/* -----------mobile devices----------- */
+
+@media screen and (max-width: 650px) {
+    .trainings {
+        width: 90%;
+    }
+}

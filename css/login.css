@@ -1,0 +1,209 @@
+/* ------------------------------sign up----------------- */
+
+body {
+    background-image: url('/cc/resources/login/login_bg.jpg');
+    background-repeat: no-repeat;
+}
+
+.login-form {
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    background-color: white;
+    opacity: .9;
+    padding-bottom: 20px;
+}
+
+.login-form .bg-green {
+    background-color: green;
+}
+
+.login-form h3 {
+    padding: 20px;
+    color: white;
+}
+
+.login-form form {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.login-form .form-group {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.login-form .form-icon {
+    width: 10%;
+}
+
+.login-form .form-input {
+    width: 85%;
+}
+
+.login-form input {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+.login-form input:hover {
+    border-bottom: 3px solid green;
+}
+
+.login-form .fas {
+    color: green;
+}
+
+.login-form-btn {
+    text-align: center;
+}
+
+.api-login {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.api-login h5 {
+    text-align: center;
+}
+
+.api-login-btn {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.api-login-btn .btn {
+    border-radius: 30px;
+    color: white;
+}
+
+.api-login-btn .btn-fb {
+    padding: 10px 18px;
+    background-color: #3b5998;
+}
+
+.api-login-btn .btn-ggl {
+    padding: 10px 13px;
+    background-color: #db4a39;
+}
+
+.api-login-btn .btn-lin {
+    padding: 10px 13px;
+    background-color: #0e76a8;
+}
+
+.api-login-btn .btn-fb:hover {
+    background-color: #0e3079;
+}
+
+.api-login-btn .btn-ggl:hover {
+    background-color: #971a0c;
+}
+
+.api-login-btn .btn-lin:hover {
+    background-color: #044c6d;
+}
+
+.login-links {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-links a {
+    font-size: 18px;
+}
+
+
+/* -----------------big windows---------------- */
+
+@media only screen and (max-device-width: 1300px) {
+    .login-form {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+}
+
+
+/* -----------ipad-pro-------------- */
+
+@media screen and (max-width: 1024px) {
+    .login-form {
+        width: 50%;
+        margin-top: 6%;
+        margin-bottom: 7%;
+    }
+}
+
+
+/* -----------ipad-------------- */
+
+@media screen and (max-width: 1023px) {
+    .login-form {
+        width: 60%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+    .api-login {
+        width: 70%;
+    }
+    .login-links a {
+        font-size: 17px;
+    }
+}
+
+
+/* -----------mobile devices----------- */
+
+@media screen and (max-width: 700px) {
+    .login-form {
+        width: 90%;
+        margin-top: 30%;
+        margin-bottom: 30%;
+    }
+    .login-form form {
+        padding: 10px;
+    }
+    .api-login {
+        width: 70%;
+    }
+    .login-links {
+        width: 80%;
+    }
+    .login-links a {
+        font-size: 16px;
+    }
+}
+
+
+/* ----------- very small mobile device iphone 5/SE----------- */
+
+@media screen and (max-width: 400px) {
+    .login-form {
+        width: 90%;
+        margin-top: 20%;
+        margin-bottom: 20%;
+    }
+    .login-form form {
+        padding: 5px;
+    }
+    .login-form .fas {
+        padding-right: 10px;
+    }
+    .api-login {
+        width: 70%;
+    }
+    .login-links {
+        width: 90%;
+    }
+    .login-links a {
+        font-size: 14px;
+    }
+}

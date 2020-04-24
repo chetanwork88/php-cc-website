@@ -1,0 +1,208 @@
+    /* ******************************   template.css    ******************* */
+    /*---------- -----------------------   navbar ---------------------------    ---------- */
+    
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    .navbar {
+        background-color: rgb(29, 64, 167);
+    }
+    
+    .navbar-brand {
+        margin: -5px 0 -5px -10px;
+        width: 25%;
+        padding-right: none;
+    }
+    
+    .navbar-brand img {
+        border-radius: 20px;
+        width: 100%;
+    }
+    
+    .navbar-nav {
+        padding-left: 30px;
+    }
+    
+    .navbar li a {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 19px;
+        margin: 0 3px;
+    }
+    
+    .active {
+        /* background-color: rgb(80, 116, 223); */
+        border-bottom: 2px solid white;
+    }
+    
+    .dropdown-menu {
+        padding: 5px 6px 5px 0;
+    }
+    
+    .dropdown-item:hover {
+        background-color: rgb(29, 64, 167);
+        color: white;
+    }
+    
+    .logout-hover:hover {
+        background-color: rgb(199, 48, 48);
+    }
+    /* -------------------------------comman tags-------------------------- */
+    
+    .row {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .module {
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    h3 {
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        font: 30px "Lato", sans-serif;
+        color: #111;
+        text-align: center;
+    }
+    
+    .module .content p {
+        font-size: 17px;
+        text-align: justify;
+    }
+    
+    .no-margin {
+        margin: 0;
+    }
+    
+    .btn {
+        border-radius: 0;
+        padding: 10px 20px;
+    }
+    
+    .btn-outline-success {
+        border-color: green;
+        color: green;
+    }
+    
+    .btn-success {
+        background-color: green;
+        border-color: green;
+        color: white;
+    }
+    
+    .btn-outline-primary {
+        border-color: rgb(59, 90, 180);
+        color: rgb(59, 90, 180);
+    }
+    
+    .btn-primary {
+        background-color: rgb(59, 90, 180);
+        border-color: rgb(59, 90, 180);
+        color: white;
+    }
+    
+    .btn-outline-success:hover {
+        background-color: green;
+    }
+    
+    .btn-success:hover {
+        background-color: rgb(4, 87, 4);
+    }
+    
+    .btn-outline-primary:hover {
+        background-color: rgb(59, 90, 180);
+        color: white;
+    }
+    
+    .btn-primary:hover {
+        background-color: rgb(6, 37, 129);
+    }
+    /* -----------ipad-pro-------------- */
+    
+    @media screen and (max-width: 1024px) {
+        .navbar-nav {
+            padding-left: 20px;
+        }
+        .navbar li a {
+            font-size: 19px;
+            margin: 0 5px;
+        }
+    }
+    /* -----------ipad-------------- */
+    
+    @media screen and (max-width: 1023px) {
+        .nav-item-first {
+            margin-top: 10px;
+        }
+        .navbar-brand {
+            width: 40%;
+        }
+        .navbar-nav {
+            padding-left: 0;
+        }
+        .navbar li a {
+            text-align: center;
+        }
+        .btn {
+            padding: 7px 17px;
+        }
+    }
+    /* -----------mobile devices----------- */
+    
+    @media screen and (max-width: 700px) {
+        .nav-item-first {
+            margin-top: 10px;
+        }
+        .navbar-brand {
+            width: 80%;
+        }
+        .navbar-nav {
+            padding-left: 0;
+        }
+        .navbar li a {
+            text-align: center;
+        }
+        .dropdown-menu {
+            padding: 5px 11px 5px 0;
+        }
+        h3 {
+            font-size: 25px;
+        }
+        .module {
+            width: 80%;
+        }
+        .module .content p {
+            font-size: 16px;
+        }
+        .btn {
+            border-radius: 0;
+            padding: 8px 13px;
+        }
+        .dark-colour {
+            padding: 35px 0;
+        }
+    }
+    /* ----------- very small mobile device iphone 5/SE /galxy S5----------- */
+    
+    @media screen and (max-width: 400px) {
+        .module {
+            width: 90%;
+        }
+        h3 {
+            font-size: 20px;
+        }
+        .module .content p {
+            font-size: 15px;
+        }
+        .btn {
+            border-radius: 0;
+            padding: 5px 10px;
+        }
+        .dark-colour {
+            padding: 25px 0;
+        }
+    }

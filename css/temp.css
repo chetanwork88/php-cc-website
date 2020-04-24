@@ -1,0 +1,16 @@
+    /* ------------------.css --------------------*/
+    /* -----------------big windows---------------- */
+    
+    @media only screen and (max-device-width: 1300px) {}
+    /* -----------ipad-pro-------------- */
+    
+    @media screen and (max-width: 1100px) {}
+    /* -----------ipad-------------- */
+    
+    @media screen and (max-width: 1023px) {}
+    /* -----------mobile devices----------- */
+    
+    @media screen and (max-width: 700px) {}
+    /* ----------- very small mobile device iphone 5/SE----------- */
+    
+    @media screen and (max-width: 550px) {}

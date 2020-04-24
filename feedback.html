@@ -1,0 +1,81 @@
+<button class="open-button" onclick="openForm()"><i class="fas fa-comment-dots fa-2x"></i></button>
+
+<div class="chat-popup" id="myForm">
+    <div class="feedback-heading">
+        <h3 class="text-light">Inquire Here</h3>
+    </div>
+    <form action="feedback_db.php" method="post" class="form-container">
+
+        <div class="form-group">
+            <div class="form-icon">
+                <i class="fas fa-user-tie fa-2x"></i>
+            </div>
+            <div class="form-input">
+                <div class="name-row-input">
+                    <div class="sgn-fname">
+                        <input type="text" placeholder="* First Name" minlength="2" maxlength="20" pattern="([A-z]){2,20}" name="feedfname" required>
+                    </div>
+                    <div class="sgn-lname">
+                        <input type="text" placeholder="* Last Name" minlength="2" maxlength="20" pattern="([A-z]){2,20}" name="feedlname" required>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="form-icon">
+                <i class="fas fa-phone-alt fa-2x"></i>
+            </div>
+            <div class="form-input">
+                <input type="text" minlength="10" maxlength="10" placeholder="Enter Contact No." pattern="([0-9]){10}" name="feedctnctno">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="form-icon">
+                <i class="fas fa-envelope fa-2x"></i>
+            </div>
+            <div class="form-input">
+                <input type="email" minlength="5" maxlength="50" placeholder="Enter E-mail" name="feedemail">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="form-icon">
+                <i class="fas fa-question fa-2x"></i>
+            </div>
+            <div class="form-input">
+                <select class="custom-select" name="feedenquirytype" required>
+                    <option value="none" selected disabled>* Select Inquiry Type </option>
+                    <option value="General">General </option>
+                    <option value="Query">Question/Query </option>
+                    <option value="Workshops">Workshops </option>
+                    <option value="Services">Services </option>
+                    <option value="Jobs">Jobs</option>
+                    <option value="Other">Other </option> 
+                </select>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="form-icon">
+                <i class="fas fa-comment fa-2x"></i>
+            </div>
+            <div class="form-input">
+                <textarea minlength="5" maxlength="1000" rows="5" name="feedcomment" placeholder="* Enter Feedback" required></textarea>
+            </div>
+        </div>
+
+        <div class="chat-popup-btn">
+
+            <div class="send-btn">
+                <button type="submit" class="btn btn-primary">Send</button>
+            </div>
+
+            <div class="close-btn">
+                <button type="button" class="btn btn-outline-danger" onclick="closeForm()">Close</button>
+            </div>
+
+        </div>
+    </form>
+</div>

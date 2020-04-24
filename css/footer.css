@@ -1,0 +1,178 @@
+    /* ------------------footer.css --------------------*/
+    
+    .main-footer {
+        background-color: #26272b;
+        color: white;
+    }
+    
+    .main-footer .container-fluid {
+        width: 60%;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+    
+    .main-footer .container-fluid {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .main-footer .heading {
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+    
+    .main-footer .contact-us {
+        width: 50%;
+        padding: 20px;
+    }
+    
+    .main-footer .follow-us {
+        width: 40%;
+        padding: 20px;
+    }
+    /* -------------contact us -------- */
+    
+    .main-footer .contact-us div {
+        padding-top: 10px;
+    }
+    
+    .main-footer .contact-us .fa-phone-alt {
+        color: white;
+        padding: 10px 8px;
+        background-color: rgb(30, 30, 219);
+        border-radius: 50%;
+    }
+    
+    .main-footer .contact-us .fa-envelope-open {
+        color: #0072c6;
+        background-color: white;
+        border-radius: 50%;
+        padding: 10px 8px;
+    }
+    
+    .main-footer .contact-us .fa-whatsapp {
+        background-color: green;
+        color: white;
+        border-radius: 50%;
+        padding: 10px 8px;
+    }
+    /* ----------follow us --------- */
+    
+    .main-footer .follow-us div {
+        text-align: center;
+        padding-top: 15px;
+    }
+    
+    .main-footer .follow-us .fa-facebook-f {
+        color: white;
+        background-color: #5d73a3;
+        padding: 11px 14px;
+        border-radius: 50%;
+    }
+    
+    .main-footer .follow-us .fa-facebook-f:hover {
+        background-color: #3b5998;
+    }
+    
+    .main-footer .follow-us .fa-youtube {
+        color: red;
+        background-color: white;
+        padding: 12px 8px;
+        border-radius: 50%;
+    }
+    
+    .main-footer .follow-us .fa-youtube:hover {
+        background-color: rgb(99, 94, 94);
+    }
+    
+    .main-footer .follow-us .fa-instagram {
+        padding: 12px 10px;
+        border-radius: 50%;
+        color: white;
+        background: #f09433;
+        background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+        background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+        background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+    }
+    
+    .main-footer .follow-us .fa-instagram:hover {
+        color: rgb(90, 28, 28);
+    }
+    /* ---------------------trademark---------- */
+    
+    .main-footer .trademark {
+        border-top: 1px solid white;
+        padding: 10px 0 4px 0;
+        text-align: center;
+    }
+    
+    .main-footer .trademark p {
+        font-size: 13px;
+    }
+    /* -----------------big windows---------------- */
+    
+    @media only screen and (max-device-width: 1300px) {
+        .main-footer .container-fluid {
+            width: 60%;
+        }
+    }
+    /* -----------ipad-pro-------------- */
+    
+    @media screen and (max-width: 1100px) {
+        .main-footer .container-fluid {
+            width: 70%;
+        }
+        .main-footer .heading {
+            font-size: 18px;
+        }
+    }
+    /* -----------ipad-------------- */
+    
+    @media screen and (max-width: 1023px) {
+        .main-footer .container-fluid {
+            width: 85%;
+        }
+    }
+    /* -----------mobile devices----------- */
+    
+    @media screen and (max-width: 700px) {
+        .main-footer .container-fluid {
+            width: 100%;
+        }
+        .main-footer .contact-us,
+        .main-footer .follow-us {
+            width: 100%;
+            padding: 20px;
+        }
+        .main-footer .contact-us div {
+            margin-left: 20%;
+        }
+        .main-footer .follow-us {
+            border-top: 1px solid white;
+        }
+    }
+    /* ----------- very small mobile device iphone 5/SE----------- */
+    
+    @media screen and (max-width: 550px) {
+        .main-footer .container-fluid {
+            width: 100%;
+        }
+        .main-footer .contact-us,
+        .main-footer .follow-us {
+            width: 100%;
+            padding: 20px 0;
+        }
+        .main-footer .contact-us div {
+            margin-left: 10%;
+        }
+    }
+    
+    @media screen and (max-width: 350px) {
+        .main-footer .contact-us div {
+            margin-left: 5%;
+        }
+    }

@@ -1,0 +1,79 @@
+/* ------------------------gallery.css------------------- */
+
+body {
+    background-color: rgb(48, 46, 46);
+}
+
+
+/* -------------carousal ------------------ */
+
+.workshop-carousel {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.workshop-carousel .heading {
+    color: white;
+}
+
+.workshop-carousel .carousel {
+    margin-top: 20px;
+}
+
+.workshop-carousel img {
+    width: 100%;
+    height: 500px;
+}
+
+
+/* -----------------big windows---------------- */
+
+@media only screen and (max-device-width: 1300px) {
+    .workshop-carousel img {
+        height: 460px;
+    }
+}
+
+
+/* -----------ipad-pro-------------- */
+
+@media screen and (max-width: 1100px) {
+    .workshop-carousel img {
+        height: 480px;
+    }
+}
+
+
+/* -----------ipad-------------- */
+
+@media screen and (max-width: 1023px) {
+    .workshop-carousel img {
+        height: 460px;
+    }
+}
+
+
+/* -----------mobile devices----------- */
+
+@media screen and (max-width: 700px) {
+    .workshop-carousel img {
+        height: 350px;
+    }
+    .carousel-caption h3 {
+        font-size: 20px;
+    }
+}
+
+
+/* ----------- very small mobile device iphone 5/SE----------- */
+
+@media screen and (max-width: 380px) {
+    .workshop-carousel img {
+        height: 300px;
+    }
+    .carousel-caption h3 {
+        font-size: 15px;
+        font-weight: bolder;
+    }
+}

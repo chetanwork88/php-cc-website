@@ -1,0 +1,1 @@
+$sql = "UPDATE users SET first_name = COALESCE('$first_name',first_name), last_name = COALESCE('$last_name',last_name), contact_no = COALESCE('$contact_no',contact_no), email = COALESCE('$email',email) WHERE username = '$username'";

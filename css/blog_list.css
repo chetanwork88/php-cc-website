@@ -1,0 +1,183 @@
+    /* ------------------blog_list.css --------------------*/
+    
+    .blog-home-link {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .blog-comment,
+    .blog-comment-list,
+    .comment-list {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    
+    .blog-comment form {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    
+    .blog-comment .form-input {
+        width: 75%;
+    }
+    
+    .blog-comment textarea {
+        width: 100%;
+    }
+    
+    .blog-comment .add-comment-btn {
+        width: 15%;
+        margin: auto 0;
+        text-align: center;
+    }
+    
+    .comment-list .delete-comment,
+    .delete-blog {
+        text-align: center;
+        padding: 10px 20px;
+    }
+    
+    .comment-list .delete-comment input[type="button"],
+    .delete-blog input[type="button"] {
+        background-color: transparent;
+        border: 1px solid rgb(211, 62, 62);
+        padding: 5px 10px;
+        color: rgb(211, 62, 62);
+    }
+    
+    .comment-list .delete-comment input[type="button"]:hover,
+    .delete-blog input[type="button"]:hover {
+        background-color: rgb(211, 62, 62);
+        color: white;
+    }
+    
+    .blog-share {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 25%;
+        margin: 0 auto;
+    }
+    
+    .blog-share .fa-facebook-square {
+        color: #3b5998;
+    }
+    
+    .blog-share .fa-twitter-square {
+        color: #00acee;
+    }
+    
+    .blog-share .fa-whatsapp-square {
+        color: #4FCE5D;
+    }
+    
+    .blog-share .fa-copy {
+        color: gray;
+    }
+    
+    .blog-share .fa-facebook-square:hover {
+        color: #1b3d88;
+    }
+    
+    .blog-share .fa-twitter-square:hover {
+        color: #05688f;
+    }
+    
+    .blog-share .fa-whatsapp-square:hover {
+        color: rgb(17, 165, 35);
+    }
+    
+    .blog-share .fa-copy:hover {
+        color: rgb(85, 83, 83);
+    }
+    
+    .blog-share .fa-copy:active {
+        color: green;
+    }
+    
+    .del-comment-btn,
+    .del-blog-btn {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    /* -----------------big windows---------------- */
+    
+    @media only screen and (max-device-width: 1300px) {}
+    /* -----------ipad-pro-------------- */
+    
+    @media screen and (max-width: 1100px) {
+        .blog-comment,
+        .blog-comment-list,
+        .comment-list {
+            width: 85%;
+        }
+        .blog-comment .form-input {
+            width: 70%;
+        }
+        .blog-comment .add-comment-btn {
+            width: 20%;
+        }
+    }
+    
+    .blog-home-link-bottom {
+        margin-bottom: 30px;
+    }
+    /* -----------ipad-------------- */
+    
+    @media screen and (max-width: 1023px) {
+        .blog-comment,
+        .blog-comment-list,
+        .comment-list {
+            width: 85%;
+        }
+        .blog-comment .form-input {
+            width: 70%;
+        }
+        .blog-comment .add-comment-btn {
+            width: 25%;
+        }
+        .blog-share {
+            width: 35%;
+        }
+    }
+    /* -----------mobile devices----------- */
+    
+    @media screen and (max-width: 700px) {
+        .blog-comment,
+        .blog-comment-list,
+        .comment-list {
+            width: 90%;
+        }
+        .blog-comment .form-input {
+            width: 100%;
+        }
+        .blog-comment .add-comment-btn {
+            width: 50%;
+            padding-top: 10px;
+        }
+        .blog-share {
+            width: 70%;
+        }
+    }
+    /* ----------- very small mobile device iphone 5/SE----------- */
+    
+    @media screen and (max-width: 550px) {
+        .blog-comment,
+        .blog-comment-list,
+        .comment-list {
+            width: 90%;
+        }
+        .blog-comment .form-input {
+            width: 100%;
+        }
+        .blog-comment .add-comment-btn {
+            width: 50%;
+            padding-top: 10px;
+        }
+        .blog-share {
+            width: 80%;
+        }
+    }

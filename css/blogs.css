@@ -1,0 +1,92 @@
+    /* ------------------blogs.css --------------------*/
+    
+    .blog-page {
+        background-color: rgb(244, 245, 244);
+    }
+    
+    .blog-heading {
+        margin: 30px 0;
+    }
+    
+    .blog {
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px 30px;
+        background-color: white;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .blog .blog-title {
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    
+    .blog .blog-body {
+        text-align: justify;
+    }
+    
+    .creator .blockquote-footer {
+        text-align: center;
+        padding: 10px 0;
+        font-size: 15px;
+    }
+    
+    .blog .cont-read-btn {
+        padding: 20px;
+        text-align: center;
+    }
+    /* -----------------big windows---------------- */
+    
+    @media only screen and (max-device-width: 1300px) {}
+    /* -----------ipad-pro-------------- */
+    
+    @media screen and (max-width: 1100px) {
+        .blog {
+            width: 85%;
+        }
+        .blog .blog-title {
+            font-size: 22px;
+        }
+    }
+    /* -----------ipad-------------- */
+    
+    @media screen and (max-width: 1023px) {
+        .blog {
+            width: 90%;
+        }
+        .blog .blog-title {
+            font-size: 20px;
+        }
+    }
+    /* -----------mobile devices----------- */
+    
+    @media screen and (max-width: 700px) {
+        .blog {
+            width: 95%;
+        }
+        .blog .blog-title {
+            font-size: 18px;
+        }
+        .blog .blog-body {
+            font-size: 17px;
+        }
+    }
+    /* ----------- very small mobile device iphone 5/SE----------- */
+    
+    @media screen and (max-width: 550px) {
+        .blog {
+            width: 95%;
+        }
+        .blog .blog-title {
+            font-size: 16px;
+        }
+        .blog .blog-body {
+            font-size: 14px;
+        }
+        .blog-creator .blockquote-footer {
+            font-size: 12px;
+        }
+    }

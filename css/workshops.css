@@ -1,0 +1,682 @@
+/* --------------workshops.css--------------------- */
+
+.bgimg-2 {
+    background-image: url("/cc/resources/workshops/workshop_head.jpg");
+    position: relative;
+    opacity: 0.8;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 400px;
+}
+
+.caption {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    margin-top: 10%;
+}
+
+.caption span.border {
+    padding: 15px;
+    letter-spacing: 5px;
+    font-weight: bolder;
+    background-color: transparent;
+    font-size: 65px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.pad-work {
+    padding-top: 60px;
+}
+
+.left-workshop-list {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(43, 41, 41);
+    color: white;
+    padding: 20px 0;
+}
+
+.left-workshop-list h4 {
+    text-align: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.left-workshop-list .left-workshop-img,
+.left-workshop-list .right-workshop-info {
+    padding-top: 20px;
+}
+
+.left-workshop-list .left-workshop-img img {
+    height: 350px;
+}
+
+.right-workshop-info {
+    text-align: justify;
+    margin: auto;
+}
+
+.right-workshop-info p {
+    font-size: 20px;
+    width: 100%;
+}
+
+.right-workshop-info ul {
+    list-style-type: disc;
+}
+
+.workshop-btn {
+    padding: 20px 0;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.workshop-btn .btn {
+    padding: 10px 40px;
+    font-size: 18px;
+}
+
+
+/* --------------------soft-skills learn modal---------------------- */
+
+.ss-learn-modal .modal-content {
+    background-color: rgb(43, 41, 41);
+    color: white;
+}
+
+.ss-learn-modal .modal-header {
+    background-color: green;
+}
+
+.ss-learn-modal .heading {
+    font-size: 23px;
+}
+
+.ss-learn-modal p {
+    text-align: justify;
+}
+
+.ss-learn-modal .modal-footer {
+    margin: 0 auto;
+}
+
+
+/* -------------------------ss-enroll-modal -------------------------*/
+
+.ss-enroll-modal .modal-content {
+    background-color: rgb(43, 41, 41);
+    color: white;
+}
+
+.ss-enroll-modal .modal-header {
+    background-color: royalblue;
+}
+
+.ss-enroll-modal .heading {
+    font-size: 23px;
+}
+
+.ss-enroll-modal .modal-footer {
+    margin: 0 auto;
+}
+
+.ss-enroll-form {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    opacity: .9;
+}
+
+.ss-enroll-form h3 {
+    padding: 20px;
+    color: white;
+}
+
+.ss-enroll-form form {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.ss-enroll-form .form-group {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.ss-enroll-form .form-icon {
+    width: 10%;
+}
+
+.ss-enroll-form .form-input {
+    width: 85%;
+}
+
+.ss-enroll-form input {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+.ss-enroll-form input[type="date"] {
+    background-color: white;
+}
+
+.ss-enroll-form textarea {
+    border: 1px solid black;
+    width: 100%;
+}
+
+.ss-enroll-form .name-row-input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ss-enroll-form .name-row-input div {
+    width: 45%;
+}
+
+.ss-enroll-form input:hover,
+.ss-enroll-form textarea:hover {
+    border-bottom: 3px solid rgb(11, 123, 197);
+}
+
+.ss-enroll-form .fas {
+    color: royalblue;
+}
+
+.ss-enroll-form-btn {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.ss-close-btn {
+    color: red;
+}
+
+.ss-close-btn:hover {
+    color: white;
+}
+
+
+/* -----------------------------career workshop ---------------- */
+
+.career-workshop-list {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.career-workshop-list h4 {
+    text-align: center;
+}
+
+.career-workshop-info {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.career-workshop-info h5 {
+    text-align: center;
+    background-color: #5bc0de;
+    padding: 20px;
+    color: white;
+}
+
+.career-workshop-info .workshop-content {
+    padding: 20px;
+}
+
+.career-workshop-info p {
+    text-align: justify;
+}
+
+.career-ten-workshop,
+.career-twelve-workshop {
+    background-color: rgb(240, 236, 236);
+    width: 50%;
+}
+
+.career-ten-workshop {
+    margin-right: 40px;
+}
+
+.career-ten-workshop-btn,
+.career-twelve-workshop-btn {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+/* ---------------------------career-guidance modal-------------------- */
+
+.cg-enroll_modal .modal-content {
+    background-color: rgb(43, 41, 41);
+    color: white;
+}
+
+.cg-enroll_modal .modal-header {
+    background-color: #2198bd;
+}
+
+.cg-enroll_modal .heading {
+    font-size: 23px;
+}
+
+.cg-enroll_modal .modal-footer {
+    margin: 0 auto;
+}
+
+.cg-enroll_form {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    opacity: .9;
+}
+
+.cg-enroll_form h3 {
+    padding: 20px;
+    color: white;
+}
+
+.cg-enroll_form form {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.cg-enroll_form .form-group {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.cg-enroll_form .form-icon {
+    width: 10%;
+}
+
+.cg-enroll_form .form-input {
+    width: 85%;
+}
+
+.cg-enroll_form input,
+.cg-enroll_form select {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+.cg-enroll_form .custom-control-label,
+.cg-enroll_form h5 {
+    color: black;
+}
+
+.cg-enroll_form input[type="date"] {
+    background-color: white;
+}
+
+.cg-enroll_form textarea {
+    border: 1px solid black;
+    width: 100%;
+}
+
+.cg-enroll_form .name-row-input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cg-enroll_form .name-row-input div {
+    width: 45%;
+}
+
+.cg-enroll_form input:hover,
+.cg-enroll_form textarea:hover,
+.cg-enroll_form select:hover {
+    border-bottom: 3px solid #2198bd;
+}
+
+.cg-enroll_form .fas {
+    color: #2198bd;
+}
+
+.cg-enroll_form-btn {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.cgten-close-btn,
+.cgtwelve-close-btn {
+    color: red;
+}
+
+.cgten-close-btn:hover,
+.cgtwelve-close-btn:hover {
+    color: white;
+}
+
+
+/* ------------------------job-oriented workshop -----------------------------------*/
+
+.job-workshop-btn {
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+/* -------------------------job-enroll-modal -------------------------*/
+
+.job-enroll-modal .modal-content {
+    background-color: rgb(43, 41, 41);
+    color: white;
+}
+
+.job-enroll-modal .modal-header {
+    background-color: #dd8e1f;
+}
+
+.job-enroll-modal .heading {
+    font-size: 23px;
+}
+
+.job-enroll-modal .modal-footer {
+    margin: 0 auto;
+}
+
+.job-enroll-form {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    opacity: .9;
+}
+
+.job-enroll-form h3 {
+    padding: 20px;
+    color: white;
+}
+
+.job-enroll-form form {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.job-enroll-form .form-group {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.job-enroll-form .form-icon {
+    width: 10%;
+}
+
+.job-enroll-form .form-input {
+    width: 85%;
+}
+
+.job-enroll-form input,
+.job-enroll-form select {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+.job-enroll-form input[type="date"] {
+    background-color: white;
+}
+
+.job-enroll-form textarea {
+    border: 1px solid black;
+    width: 100%;
+}
+
+.job-enroll-form .name-row-input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.job-enroll-form .name-row-input div {
+    width: 45%;
+}
+
+.job-enroll-form input:hover,
+.job-enroll-form textarea:hover,
+.job-enroll-form select:hover {
+    border-bottom: 3px solid #dd8e1f;
+}
+
+.job-enroll-form .fas {
+    color: #dd8e1f;
+}
+
+.job-enroll-form-btn {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.job-close-btn {
+    color: red;
+}
+
+.job-close-btn:hover {
+    color: white;
+}
+
+
+/* ------------------------------------------------------------------------------------------ */
+
+
+/* -----------------big windows---------------- */
+
+@media only screen and (max-device-width: 1300px) {
+    .caption {
+        top: 13%;
+    }
+    .caption span.border {
+        font-size: 50px;
+    }
+    .ss-enroll-form-btn,
+    .job-enroll-form-btn {
+        width: 55%;
+    }
+}
+
+
+/* -----------ipad-pro-------------- */
+
+@media screen and (max-width: 1024px) {
+    .caption span.border {
+        font-size: 40px;
+    }
+    .workshop-btn .btn {
+        padding: 10px 30px;
+        font-size: 17px;
+    }
+    .ss-enroll-form-btn,
+    .job-enroll-form-btn,
+    .cg-enroll_form-btn {
+        width: 65%;
+    }
+    .career-workshop-info .workshop-content {
+        padding: 10px;
+    }
+}
+
+
+/* -----------ipad-------------- */
+
+@media screen and (max-width: 1023px) {
+    .bgimg-2 {
+        min-height: 350px;
+    }
+    .caption {
+        top: 20%;
+    }
+    .caption span.border {
+        font-size: 38px;
+    }
+    .right-workshop-info p {
+        font-size: 17px;
+    }
+    .workshop-btn .btn {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+    .ss-enroll-form,
+    .job-enroll-form,
+    .cg-enroll_form {
+        width: 90%;
+    }
+    .ss-enroll-form-btn,
+    .job-enroll-form-btn,
+    .cg-enroll_form-btn {
+        width: 75%;
+    }
+    .career-workshop-list {
+        width: 95%;
+    }
+    .career-ten-workshop {
+        margin-right: 20px;
+    }
+    .career-workshop-info .workshop-content {
+        padding: 10px;
+    }
+}
+
+
+/* -----------mobile devices----------- */
+
+@media screen and (max-width: 700px) {
+    .bgimg-2 {
+        min-height: 300px;
+    }
+    .caption {
+        top: 30%;
+    }
+    .caption span.border {
+        font-size: 20px;
+    }
+    .right-workshop-info p {
+        font-size: 15px;
+    }
+    .workshop-btn {
+        width: 90%;
+        padding-top: 15px;
+    }
+    .workshop-btn .btn {
+        padding: 8px 20px;
+        font-size: 15px;
+    }
+    .ss-enroll-form,
+    .job-enroll-form,
+    .cg-enroll_form {
+        width: 95%;
+    }
+    .ss-enroll-form form,
+    .job-enroll-form form,
+    .cg-enroll_form form {
+        padding: 3px;
+        padding-bottom: 20px;
+    }
+    .ss-enroll-form-btn,
+    .job-enroll-form-btn,
+    .cg-enroll_form-btn {
+        width: 85%;
+    }
+    .career-workshop-list {
+        width: 90%;
+    }
+    .career-ten-workshop {
+        margin-right: 0;
+    }
+    .career-ten-workshop,
+    .career-twelve-workshop {
+        width: 100%;
+    }
+    .career-workshop-info .workshop-content {
+        padding: 10px;
+    }
+    .career-twelve-workshop {
+        margin-top: 40px;
+    }
+    .career-workshop-info {
+        flex-wrap: wrap;
+    }
+}
+
+
+/* ----------- very small mobile device iphone 5/SE----------- */
+
+@media screen and (max-width: 400px) {
+    .bgimg-2 {
+        min-height: 250px;
+    }
+    .caption {
+        top: 30%;
+    }
+    .caption span.border {
+        font-size: 15px;
+    }
+    .right-workshop-info p {
+        font-size: 13px;
+    }
+    .workshop-btn {
+        width: 90%;
+        padding-top: 10px;
+    }
+    .workshop-btn .btn {
+        padding: 6px 15px;
+        font-size: 13px;
+    }
+    .ss-enroll-form,
+    .job-enroll-form,
+    .cg-enroll_form {
+        width: 100%;
+    }
+    .ss-enroll-form form,
+    .job-enroll-form form,
+    .cg-enroll_form form {
+        padding: 5px;
+        padding-bottom: 20px;
+    }
+    .ss-enroll-form-btn,
+    .job-enroll-form-btn,
+    .cg-enroll_form-btn {
+        width: 90%;
+    }
+    .career-workshop-list {
+        width: 95%;
+    }
+    .career-ten-workshop {
+        margin-right: 0;
+    }
+    .career-ten-workshop,
+    .career-twelve-workshop {
+        width: 100%;
+    }
+    .career-workshop-info .workshop-content {
+        padding: 5px;
+    }
+    .career-twelve-workshop {
+        margin-top: 20px;
+    }
+    .career-workshop-info {
+        flex-wrap: wrap;
+    }
+}

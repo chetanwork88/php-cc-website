@@ -1,0 +1,218 @@
+/* -----------------------vision/mission------------ */
+
+.bgimg-1,
+.bgimg-2,
+.bgimg-3 {
+    position: relative;
+    opacity: 0.8;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg-1 {
+    background-image: url("/cc/resources/home/skills.jpg");
+    min-height: 400px;
+}
+
+.bgimg-2 {
+    background-image: url("/cc/resources/about/vision.jpg");
+    min-height: 400px;
+}
+
+.bgimg-3 {
+    background-image: url("/cc/resources/about/mission.jpg");
+    min-height: 400px;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption span.border {
+    padding: 18px;
+    letter-spacing: 10px;
+    font-weight: bolder;
+    background-color: transparent;
+    font-size: 25px;
+    color: white;
+}
+
+.caption span.border-none {
+    padding: 10px;
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+    text-align: justify;
+}
+
+
+/* --------------------------team--------------------- */
+
+.no-margin {
+    background-color: rgb(43, 41, 41);
+}
+
+.team {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.icons {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.team-list,
+.team-list .icons {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    width: 20%;
+    text-align: center;
+    background-color: rgb(213, 213, 216);
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.team-member h4 {
+    font-size: 22px;
+}
+
+.team-avatar .fa-user {
+    color: rgb(66, 99, 172);
+}
+
+.fa-user {
+    color: gray;
+}
+
+.fa-facebook-square {
+    color: #556483;
+}
+
+.fa-whatsapp-square {
+    color: green;
+}
+
+.fa-linkedin {
+    color: #0072b1;
+}
+
+
+/* Turn off parallax scrolling for tablets and phones */
+
+
+/* 
+@media only screen and (max-device-width: 1023px) {
+    .bgimg-1,
+    .bgimg-2,
+    .bgimg-3 {
+        background-attachment: scroll;
+    }
+} */
+
+
+/* -----------------big windows---------------- */
+
+@media only screen and (max-device-width: 1300px) {
+    .team {
+        width: 90%;
+    }
+    .icons {
+        width: 80%;
+    }
+    .team-member {
+        width: 20%;
+    }
+    .team-member h4 {
+        font-size: 22px;
+    }
+}
+
+
+/* -----------ipad-pro-------------- */
+
+@media screen and (max-width: 1100px) {
+    .team {
+        width: 90%;
+    }
+    .icons {
+        width: 80%;
+    }
+    .team-member {
+        width: 20%;
+        padding: 10px;
+    }
+    .team-member h4 {
+        font-size: 22px;
+    }
+}
+
+
+/* -----------ipad-------------- */
+
+@media screen and (max-width: 1023px) {
+    .team {
+        width: 80%;
+    }
+    .icons {
+        width: 80%;
+    }
+    .team-member {
+        width: 30%;
+        padding: 10px;
+    }
+    .team-member h4 {
+        font-size: 20px;
+    }
+}
+
+
+/* -----------mobile devices----------- */
+
+@media screen and (max-width: 700px) {
+    .team {
+        width: 70%;
+    }
+    .icons {
+        width: 80%;
+    }
+    .team-member {
+        width: 40%;
+        padding: 10px;
+    }
+    .team-member h4 {
+        font-size: 18px;
+    }
+}
+
+
+/* ----------- very small mobile device iphone 5/SE----------- */
+
+@media screen and (max-width: 550px) {
+    .team {
+        width: 50%;
+    }
+    .icons {
+        width: 80%;
+    }
+    .team-member {
+        width: 100%;
+        padding: 10px;
+    }
+    .team-member h4 {
+        font-size: 18px;
+    }
+}

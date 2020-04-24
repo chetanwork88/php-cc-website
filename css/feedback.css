@@ -1,0 +1,136 @@
+/* ---------------feedback.css----------------- */
+
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+
+.open-button {
+    background-color: rgb(4, 49, 250);
+    border-radius: 50%;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.open-button:hover {
+    background-color: rgb(5, 28, 133);
+}
+
+
+/* The popup chat - hidden by default */
+
+.chat-popup {
+    max-width: 450px;
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(235, 233, 233);
+}
+
+.chat-popup .feedback-heading {
+    background-color: rgb(77, 91, 223);
+    padding: 15px;
+}
+
+
+/* Add styles to the form container */
+
+.form-container {
+    width: 100%;
+    padding: 20px;
+}
+
+
+/* When the textarea gets focus, do something */
+
+.chat-popup .form-group {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 0;
+}
+
+.chat-popup .form-icon {
+    width: 10%;
+}
+
+.chat-popup .form-input {
+    width: 85%;
+}
+
+.chat-popup input,
+.chat-popup select {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+    background-color: rgb(235, 233, 233);
+}
+
+.chat-popup textarea {
+    border: 1px solid black;
+    width: 100%;
+    background-color: rgb(235, 233, 233);
+}
+
+.chat-popup .name-row-input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.chat-popup .name-row-input div {
+    width: 45%;
+}
+
+.chat-popup input:hover,
+.chat-popup textarea:hover {
+    border-bottom: 3px solid rgb(77, 91, 223);
+}
+
+.chat-popup .fas {
+    color: rgb(77, 91, 223);
+}
+
+.chat-popup-btn {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+/* -----------------big windows---------------- */
+
+@media only screen and (max-device-width: 1300px) {}
+
+
+/* -----------ipad-pro-------------- */
+
+@media screen and (max-width: 1100px) {}
+
+
+/* -----------ipad-------------- */
+
+@media screen and (max-width: 1023px) {}
+
+
+/* -----------mobile devices----------- */
+
+@media screen and (max-width: 700px) {
+    .chat-popup {
+        max-width: 100%;
+        left: 2%;
+        right: 2%;
+        bottom: 2%;
+        margin: 0 auto;
+    }
+}
+
+
+/* ----------- very small mobile device iphone 5/SE----------- */
+
+@media screen and (max-width: 550px) {}

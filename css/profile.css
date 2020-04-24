@@ -1,0 +1,302 @@
+/* ------------------profile.css --------------------*/
+
+.profile-heading {
+    margin: 30px 0;
+}
+
+.profile {
+    width: 60%;
+    margin: 0 auto;
+    background-color: rgb(244, 245, 244);
+    margin-bottom: 30px;
+}
+
+.profile .user-avatar,
+.profile h3 {
+    text-align: center;
+    background-color: #0275d8;
+    padding: 20px 0;
+    color: white;
+}
+
+.profile .user-avatar i {
+    font-size: 150px;
+    color: rgb(15, 62, 204);
+}
+
+.profile p {
+    font-size: 20px;
+}
+
+.user-value p {
+    border-bottom: 1px solid rgb(51, 51, 51);
+}
+
+.user-login {
+    text-align: center;
+    width: 40%;
+    padding: 20px 40px;
+}
+
+.user-data {
+    width: 60%;
+    padding: 20px 40px;
+}
+
+.user-profile {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.user-profile .username {
+    display: flex;
+    justify-content: space-between;
+}
+
+.username-value p {
+    color: rgb(3, 180, 250);
+}
+
+
+/* -------------user-details--------------- */
+
+.user-data-row {
+    display: flex;
+}
+
+.user-data-row .user-data-key {
+    width: 40%;
+}
+
+.user-data-row .colon-seperator {
+    width: 10%;
+}
+
+.user-data-row .user-data-value {
+    width: 50%;
+}
+
+
+/* ----------------form---------------------------- */
+
+.user-data .user-data-value input[placeholder] {
+    /* color: rgb(1, 172, 240); */
+    font-size: 17px;
+}
+
+.profile-form input[type] {
+    color: black;
+}
+
+.user-data .chg-data-form-btn {
+    text-align: center;
+}
+
+.profile-form .form-input {
+    width: 85%;
+}
+
+.profile-form input {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+    background-color: rgb(244, 245, 244);
+}
+
+.profile-form input:hover {
+    border-bottom: 3px solid rgb(11, 123, 197);
+}
+
+.profile-form-btn {
+    text-align: center;
+}
+
+.pass-change .form-input {
+    width: 100%;
+}
+
+.pass-change .form-group {
+    padding: 2px 0;
+}
+
+.pass-change input:hover {
+    border-bottom: 3px solid red;
+}
+
+.pass-change hr {
+    margin-top: 29px;
+}
+
+
+/* -----------------------blog------------------- */
+
+.blog-form {
+    width: 60%;
+    margin: 60px auto;
+    background-color: rgb(244, 245, 244);
+}
+
+.blog-form h3 {
+    text-align: center;
+    background-color: #0275d8;
+    padding: 20px 0;
+    color: white;
+}
+
+.blog-form form {
+    width: 95%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.blog-form .form-group {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.blog-form .form-icon {
+    width: 15%;
+}
+
+.blog-form .form-input,
+.blog-form select {
+    width: 85%;
+}
+
+.blog-form textarea {
+    width: 100%;
+}
+
+.blog-form textarea:hover {
+    border: 2px solid #318fac;
+}
+
+.blog-form .fas {
+    color: #318fac;
+}
+
+.blog-form-btn {
+    text-align: center;
+}
+
+
+/* --------------------profile-tables------------- */
+
+.profile-tables {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.table-div {
+    overflow-y: auto;
+    max-height: 400px;
+}
+
+.table-div thead {
+    position: sticky;
+    top: 0;
+    background-color: #02559e;
+    color: white;
+}
+
+.profile-tables td {
+    max-width: 200px;
+    /* overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; */
+    overflow: visible;
+    word-break: keep-all;
+}
+
+.profile-tables h3 {
+    padding: 30px 0;
+    color: rgb(3, 32, 121);
+}
+
+.profile-tables a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* -------------service details ------------------ */
+
+
+/* -----------------big windows---------------- */
+
+@media only screen and (max-device-width: 1300px) {
+    .profile,
+    .blog-form {
+        width: 70%;
+    }
+}
+
+
+/* -----------ipad-pro-------------- */
+
+@media screen and (max-width: 1100px) {
+    .profile,
+    .blog-form {
+        width: 80%;
+    }
+}
+
+
+/* -----------ipad-------------- */
+
+@media screen and (max-width: 1023px) {
+    .profile,
+    .blog-form {
+        width: 95%;
+    }
+}
+
+
+/* -----------mobile devices----------- */
+
+@media screen and (max-width: 750px) {
+    .profile,
+    .blog-form {
+        width: 95%;
+    }
+    .user-login {
+        width: 100%;
+    }
+    .user-data {
+        border-top: 1px solid black;
+        width: 100%;
+        padding: 40px 10px;
+    }
+    .profile p {
+        font-size: 16px;
+    }
+    .user-data-row .user-data-key {
+        width: 30%;
+    }
+    .user-data-row .colon-seperator {
+        width: 5%;
+    }
+    .user-data-row .user-data-value {
+        width: 65%;
+    }
+    .blog-form form {
+        padding: 10px;
+    }
+}
+
+
+/* ----------- very small mobile device iphone 5/SE----------- */
+
+@media screen and (max-width: 550px) {
+    .profile,
+    .blog-form {
+        width: 95%;
+    }
+    .blog-form form {
+        padding: 10px;
+    }
+}

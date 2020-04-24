@@ -1,0 +1,155 @@
+/* ******************************   index.css    ******************* */
+
+.bgimg-2 {
+    background-image: url("/cc/resources/home/skills_list.jpg");
+}
+
+.bgimg-3 {
+    background-image: url("/cc/resources/home/side_businessman.jpg");
+}
+
+.bgimg-2,
+.bgimg-3 {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 500px;
+}
+
+.caption {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    top: 30%;
+}
+
+.caption span.border-none {
+    padding: 15px;
+    letter-spacing: 5px;
+    font-weight: bolder;
+    background-color: transparent;
+    font-size: 70px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.youtube-video {
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.youtube-video iframe {
+    width: 100%;
+    height: 500px;
+}
+
+
+/* Turn off parallax scrolling for tablets and phones */
+
+
+/* @media only screen and (max-device-width: 1023px) {
+    .bgimg-1,
+    .bgimg-2,
+    .bgimg-3 {
+        background-attachment: scroll;
+    }
+} */
+
+
+/* -----------------big windows---------------- */
+
+@media only screen and (max-device-width: 1300px) {
+    .caption span.border {
+        font-size: 40px;
+    }
+}
+
+
+/* -----------ipad-pro-------------- */
+
+@media screen and (max-width: 1024px) {
+    .caption span.border-none {
+        font-size: 55px;
+    }
+    .youtube-video {
+        width: 90%;
+        padding: 40px 0;
+    }
+    .youtube-video iframe {
+        height: 400px;
+    }
+}
+
+
+/* -----------ipad-------------- */
+
+@media screen and (max-width: 1023px) {
+    .bgimg-2 {
+        min-height: 350px;
+    }
+    .caption {
+        top: 40%;
+    }
+    .caption span.border-none {
+        font-size: 45px;
+    }
+    .youtube-video {
+        width: 90%;
+        padding: 30px 0;
+    }
+    .youtube-video iframe {
+        height: 350px;
+    }
+}
+
+
+/* -----------mobile devices----------- */
+
+@media screen and (max-width: 700px) {
+    .bgimg-2,
+    .bgimg-3 {
+        min-height: 300px;
+    }
+    .caption {
+        top: 30%;
+    }
+    .caption span.border-none {
+        font-size: 30px;
+    }
+    .youtube-video {
+        width: 95%;
+        padding: 25px 0;
+    }
+    .youtube-video iframe {
+        height: 300px;
+    }
+}
+
+
+/* ----------- very small mobile device iphone 5/SE----------- */
+
+@media screen and (max-width: 400px) {
+    .bgimg-2,
+    .bgimg-3 {
+        min-height: 250px;
+    }
+    .caption {
+        top: 30%;
+    }
+    .caption span.border-none {
+        font-size: 20px;
+    }
+    .youtube-video {
+        width: 98%;
+        padding: 20px 0;
+    }
+    .youtube-video iframe {
+        height: 250px;
+    }
+}
